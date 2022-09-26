@@ -3,7 +3,8 @@ server:
 spring:
   cloud:
     compatability-verifier:
-      enabled=false
+      enabled: 
+        - false
   application:
     name: gateway
     gateway:
