@@ -1,11 +1,11 @@
 server:
   port: 8083
 spring:
-  application:
-    name: gateway
   cloud:
     compatability-verifier:
-      enabled: false
+      enabled=false
+  application:
+    name: gateway
     gateway:
       default-filters:
         - PrefixPath=/
