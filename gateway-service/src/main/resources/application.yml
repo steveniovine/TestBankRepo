@@ -2,9 +2,8 @@ server:
   port: 8083
 spring:
   cloud:
-    compatability-verifier:
-      enabled: 
-        - false
+    compatibility-verifier:
+      enabled: false
   application:
     name: gateway
     gateway:
