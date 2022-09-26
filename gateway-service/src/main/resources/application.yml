@@ -4,6 +4,8 @@ spring:
   application:
     name: gateway
   cloud:
+    compatability-verifier:
+      enabled: false
     gateway:
       default-filters:
         - PrefixPath=/
